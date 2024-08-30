@@ -36,7 +36,7 @@ body{
 
 
 .cursor{
-    height: 50px;
+    height: 50px;   
     width: 50px;
     background-color: red;
     position: fixed;
@@ -47,10 +47,12 @@ body{
 
 .head{
     position: relative;
-    height: 400px;
+    height: 360px;
     width: 450px;
-    background-color: #F4F4F4;
+    background-color: #F9F9F9;
     overflow: hidden;
+    
+  
     
 }
 
@@ -105,6 +107,7 @@ body{
     background-color: #F4F4F4;
     top: 11%;
     left: 9%;
+   
     /* z-index: -99; */
     
 }
@@ -259,12 +262,45 @@ body{
     align-items: center;
     margin-left: -190px;
 }
+.content .img2{
+    margin-left: -525px;
+    margin-top: 60px;
+}
+.content .img1{
+    margin-top: 60px;
+}
+/* .img-box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -190px;
+} */
+.menu-list{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.menu{
+    margin-left: -190px;
+}
+.menu li{
+    list-style: none;
+}
+.menu1 li{
+    list-style: none;
+}
+.menu2 li{
+    list-style: none;
+}
+.menu p , .menu1 p , .menu2 p{
+    font-size: 13px;
+    color: #878793;
+}
 .omega{
     display: grid;
     grid-template-columns: auto auto auto auto;
 }
 .carousel-inner{
-    width: 100%;
+    width: 67%;
 }
 .page-2{
     padding: 50px;
@@ -356,7 +392,7 @@ body{
 }
 
 .scroll img{
-    border-radius: 20px;
+    /* border-radius: 20px; */
     object-fit: cover;
     object-position: bottom;
     height: 80%;
@@ -420,7 +456,7 @@ body{
 }
 .row-2 video{
     margin-left: 150px;
-    margin-top: -100px;
+    margin-top: 100px;
 }
 .row-1{
     margin-left: -60px;
@@ -541,5 +577,61 @@ body{
     text-decoration: none;
     color: #555560;
 }
+.section{
+    width: 35%;
+    height: 700px;
+    /* background-color: #9e9597; */
+    background-color: #F9F9F9;
+    margin-left: 65%;
+    margin-top: -700px;
+    padding: 70px;
+
+}
+.sec-main{
+    display: grid;
+    grid-template-columns: auto ;
+}
+.sec-main .mens img{
+    border-radius: 50%;
+}
+.sec-main .womens img{
+    border-radius: 50%;
+}
+.sec-main .girls img{
+    border-radius: 50%;
+}
+.sec-main .boys img{
+    border-radius: 50%;
+}
+.txt p{
+    margin-left: 35%;
+    margin-top: -20%;
+    font-size: 25px;
+    color: #303037;
+}
+.section h2{
+    margin-left: 130px;
+    margin-top: -50px;
+    color: #C40D2E;
+}
+.txt a{
+    text-decoration: none;
+    color: #303037;
+}
+.footer-part a{
+    font-size: 13px;
+}
+.lower{
+    background-color: #F9F9F9;
+   padding: 20px ;
+    display: flex;
+    gap: 800px;
+    font-size: 13px;
+   
+}
+
+
+
+
 
 
